@@ -18,7 +18,7 @@ image = cv2.line(image, (0, h // 2), (w, h // 2), (0, 255, 0), 10)
 
 cv2.putText(image, '%#?!!a1T', (1000, 100), 
 
-cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 1)
+cv2.FONT_HERSHEY_SIMPLEX, 4, (255, 255, 255), 8)
 
 cv2.imshow('Original Photo', photo) 
 cv2.imshow('New Image', image)
